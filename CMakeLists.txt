@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.25.2)
 project(worms)
 
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
-
 option(BUILD_SHARED_LIBS "Enable compilation of shared libraries" ON)
 
+
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 include(CPM)
 include(build_configuration)
 
