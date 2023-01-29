@@ -1,0 +1,9 @@
+**/build/
+**/build_debug/
+**/build_release/
+**/html/
+**/CMakeLists.txt.user
+
+# CPM_SOURCE_CACHE recommended folder
+/deps
+/.deps
