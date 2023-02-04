@@ -4,7 +4,7 @@ add_library(engine)
 add_library(worms::engine ALIAS engine)
 target_link_libraries(engine PUBLIC
     project_options
-    sfml-graphics sfml-audio sfml-system
+    sfml-graphics sfml-system
 )
 target_include_directories(engine PUBLIC
  $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/../>
